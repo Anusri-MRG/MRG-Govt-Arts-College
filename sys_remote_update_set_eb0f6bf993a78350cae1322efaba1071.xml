@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-09-26 16:45:54">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Implement client script and UI policy for Incident</description>
+<inserted/>
+<name>ServiceNow Incident Client Script UI Policy Project</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>8818ef3d93678350cae1322efaba109c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-26 16:45:52</sys_created_on>
+<sys_id>eb0f6bf993a78350cae1322efaba1071</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-26 16:45:52</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_9fda9ebc93ef4b10cae1322efaba1056</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="incident"&gt;impact=1^EQ&lt;item display_value="1 - High" endquery="false" field="impact" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;High Impact Control&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-23 08:07:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9fda9ebc93ef4b10cae1322efaba1056&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;High Impact Control&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_9fda9ebc93ef4b10cae1322efaba1056&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-26 16:23:31&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1209777664</payload_hash>
+<remote_update_set display_value="ServiceNow Incident Client Script UI Policy Project">eb0f6bf993a78350cae1322efaba1071</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-26 16:45:52</sys_created_on>
+<sys_id>2f0f6bf993a78350cae1322efaba1073</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0de8769fa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-26 16:45:52</sys_updated_on>
+<table>incident</table>
+<target_name>High Impact Control</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>08f92f3105a7835028cad18dd381c849</update_guid>
+<update_guid_history>08f92f3105a7835028cad18dd381c849:-1209777664,7ec9a73150a783509984af3783a15e3b:-2046847467,219bd6fc84ef4b10a2374e6a5197ad26:-1209777664</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_71eb127093238b10cae1322efaba10bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>assignment_group</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 08:09:50</sys_created_on><sys_id>71eb127093238b10cae1322efaba10bc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>assignment_group</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_71eb127093238b10cae1322efaba10bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-26 16:30:45</sys_updated_on><table>incident</table><ui_policy display_value="High Impact Control">9fda9ebc93ef4b10cae1322efaba1056</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=71eb127093238b10cae1322efaba10bc"/></record_update>]]></payload>
+<payload_hash>-959901595</payload_hash>
+<remote_update_set display_value="ServiceNow Incident Client Script UI Policy Project">eb0f6bf993a78350cae1322efaba1071</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-26 16:45:52</sys_created_on>
+<sys_id>630f6bf993a78350cae1322efaba1074</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0de8e086a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-26 16:45:52</sys_updated_on>
+<table>incident</table>
+<target_name>assignment_group</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>c29be335a3a78350b653f8313ab31d14</update_guid>
+<update_guid_history>c29be335a3a78350b653f8313ab31d14:-959901595,d67baff193a783506210961c40690cd2:-489971796,572c5270d2238b107de2219520a9e8ff:-959901595</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_2271eef893238b10cae1322efaba10f3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Project update set capture&lt;/description&gt;&lt;field&gt;impact&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Auto set urgency for high impact&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+    if (newValue == '1') {
+        g_form.setValue('urgency', '1');
+        g_form.addInfoMessage('Urgency set to High for High impact incident.');
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-23 08:34:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2271eef893238b10cae1322efaba10f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto set urgency for high impact&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_2271eef893238b10cae1322efaba10f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-26 16:40:10&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-339204158</payload_hash>
+<remote_update_set display_value="ServiceNow Incident Client Script UI Policy Project">eb0f6bf993a78350cae1322efaba1071</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-26 16:45:52</sys_created_on>
+<sys_id>a30f6bf993a78350cae1322efaba1072</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0de96a9ae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-26 16:45:52</sys_updated_on>
+<table>incident</table>
+<target_name>Auto set urgency for high impact</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>08cde3399da783504cf866e2fb7bce48</update_guid>
+<update_guid_history>08cde3399da783504cf866e2fb7bce48:-339204158,29e013fd94a38350bf5c5c947a15551f:1865357586,cae16a3c9a238b10d442facaacf268e1:-202732101</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_4a02627c93238b10cae1322efaba1084</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Project update set capture&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Prevent save if Assigned To missing&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    if (g_form.getValue('impact') == '1' &amp;&amp;
+        g_form.getValue('assigned_to') == '') {
+
+        g_form.showErrorBox(
+            'assigned_to',
+            'Assigned To is mandatory for High impact incidents.'
+        );
+
+        return false;
+    }
+
+    return true;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-23 08:36:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4a02627c93238b10cae1322efaba1084&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Prevent save if Assigned To missing&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_4a02627c93238b10cae1322efaba1084&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-26 16:41:46&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>761409746</payload_hash>
+<remote_update_set display_value="ServiceNow Incident Client Script UI Policy Project">eb0f6bf993a78350cae1322efaba1071</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-26 16:45:52</sys_created_on>
+<sys_id>a30f6bf993a78350cae1322efaba1073</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0de981f7f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-26 16:45:52</sys_updated_on>
+<table>incident</table>
+<target_name>Prevent save if Assigned To missing</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>631e2b79b3a783501b9352ebd1c81834</update_guid>
+<update_guid_history>631e2b79b3a783501b9352ebd1c81834:761409746,b372db71aae38350e7855a94326dbf1d:1071243650,b8622e7c9f238b10192e0a671fa8d8b8:2143330020</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_c67dd23493238b10cae1322efaba1089</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>urgency</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-23 08:16:08</sys_created_on><sys_id>c67dd23493238b10cae1322efaba1089</sys_id><sys_mod_count>2</sys_mod_count><sys_name>urgency</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_c67dd23493238b10cae1322efaba1089</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-26 16:33:46</sys_updated_on><table>incident</table><ui_policy display_value="High Impact Control">9fda9ebc93ef4b10cae1322efaba1056</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=c67dd23493238b10cae1322efaba1089"/></record_update>]]></payload>
+<payload_hash>-1756022993</payload_hash>
+<remote_update_set display_value="ServiceNow Incident Client Script UI Policy Project">eb0f6bf993a78350cae1322efaba1071</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-26 16:45:52</sys_created_on>
+<sys_id>a70f6bf993a78350cae1322efaba1074</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0de90ccc40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-26 16:45:52</sys_updated_on>
+<table>incident</table>
+<target_name>urgency</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>d24c6b757ca78350fade18f148bf707d</update_guid>
+<update_guid_history>d24c6b757ca78350fade18f148bf707d:-1756022993,ad2c6775d6a783500ad9a1102b33e40e:-920166605,af9d1634c4238b10c57d1532de22cf0c:-1756022993</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_a6e4036c93670b10cae1322efaba10c5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Project update set capture&amp;#13;
+&lt;/description&gt;&lt;field&gt;state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Prevent state change via list edit &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+
+    alert('State cannot be updated using list editing. Please open the Incident.');
+
+    callback(false);
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-22 16:31:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a6e4036c93670b10cae1322efaba10c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Prevent state change via list edit &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a6e4036c93670b10cae1322efaba10c5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-26 16:43:34&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onCellEdit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>534077952</payload_hash>
+<remote_update_set display_value="ServiceNow Incident Client Script UI Policy Project">eb0f6bf993a78350cae1322efaba1071</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-26 16:45:52</sys_created_on>
+<sys_id>e70f6bf993a78350cae1322efaba1073</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0de99c4ea0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-26 16:45:52</sys_updated_on>
+<table>incident</table>
+<target_name>Prevent state change via list edit </target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>f18e67b986a78350ca05138936b0b8a4</update_guid>
+<update_guid_history>f18e67b986a78350ca05138936b0b8a4:534077952,4bf3db75f8e383507a380f2a28476d41:-887384510,1075476c56670b10be54d54d2748ae68:-824710568</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
